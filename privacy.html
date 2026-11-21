@@ -28,30 +28,32 @@
   <p class="sub">Saku · Erek Studio</p>
 
   <div class="card">
-    <strong>Short version:</strong> Saku has no accounts and we log nothing
-    about you — everything you do stays on your device. The
-    <strong>free version shows ads</strong> from Google AdMob, and Google
-    processes device data to serve them. The one-time Studio Unlock removes the ads, and for
-    buyers the ad SDK is never started.
+    <strong>Short version:</strong> The app saves your progress on your device.
+    Google AdMob serves ads in the free app. Your app store handles optional
+    purchases and any review you submit. The web daily counts visits, solves
+    and store-link clicks using a random browser identifier.
   </div>
 
   <h2>What we collect</h2>
-  <p>We — Erek Studio — do not collect, store, or transmit any personal data.
-  There is no sign-up, no profile, and no account. The one exception is the
-  advertising in the free version, where <strong>Google</strong> processes data
-  we never see or store; see &ldquo;Advertising&rdquo; below.</p>
+  <p>Saku has no account or profile. Google handles data for app advertising
+  as described below. Erek Studio records the web daily events described in
+  the Web daily section.</p>
 
   <h2>Data stored on your device</h2>
   <p>Saku saves a few things locally so the app remembers your choices:</p>
   <ul>
     <li>Your settings (theme, haptics, error-guard, accent palette).</li>
+    <li>Your puzzle progress and which pictures you have solved.</li>
     <li>Whether you have purchased the one-time Studio Unlock.</li>
   </ul>
-  <p>This information never leaves your device and is removed if you delete the app.</p>
+  <p>The app stores this information locally. Deleting the app removes its
+  local data.</p>
 
   <h2>Advertising</h2>
-  <p>Free play is ad-supported: a short ad before a puzzle opens, plus an optional ad you can choose to watch for a single hint. Ads are served by
-  <strong>Google AdMob</strong>. To do that, Google processes your advertising
+  <p>A short ad may appear after a solved puzzle in the free app. You can also
+  choose to watch an ad for a single hint or to open a past daily puzzle or a
+  Pro album picture. Ads are served by <strong>Google AdMob</strong>. To do that,
+  Google processes your advertising
   identifier, an approximate region derived from your IP address, device and app
   information, and your interaction with the ad, under
   <a href="https://policies.google.com/technologies/partner-sites">Google's
@@ -62,27 +64,40 @@
   <em>Settings &rarr; Privacy options</em> in the app. On iOS the system
   additionally asks whether the app may track you across apps and websites; if
   you decline, you still see ads, but they are not personalized.</p>
-  <p>The one-time Studio Unlock removes advertising completely. For buyers the ad SDK is never
-  initialized, and neither the consent form nor the iOS tracking prompt
-  appears.</p>
+  <p>The one-time Studio Unlock removes ads. When the unlock is already active,
+  Saku skips the ad SDK and its consent and tracking prompts at launch.</p>
 
   <h2>Network &amp; third parties</h2>
-  <p>Puzzles are still generated and solved entirely on your device — playing
-  needs no connection. Network requests come only from the advertising in the
-  free version, which is why the Android build now holds the internet and
-  advertising-ID permissions. Saku bundles no analytics or crash-reporting
-  SDKs.</p>
+  <p>The mobile app runs its puzzles on your device. Its ad SDK connects to
+  Google during free play. The mobile app bundles no analytics or
+  crash-reporting SDKs.</p>
 
-  <h2>Purchases</h2>
-  <p>The optional Studio Unlock is processed by the <strong>Apple App Store</strong>
-  or <strong>Google Play</strong>. Saku never sees your name, email, or payment
-  details — those are handled entirely by Apple or Google under their own privacy
-  policies.</p>
+  <h2>Web daily</h2>
+  <p>When you play Saku&rsquo;s web daily, Saku stores a randomly generated,
+  anonymous identifier in your browser&rsquo;s local storage. We use it to
+  count distinct browsers that open a puzzle, solve it or click a store link.
+  Each event includes the date, the puzzle number, the event type and that
+  random identifier. You can remove the identifier by clearing Saku&rsquo;s
+  site data in your browser.</p>
+  <p>The web daily uses no cookies and contains no ads. Saku uses IP addresses
+  briefly in server memory to limit repeated requests. Saku does not store IP
+  addresses in analytics or request logs. The page may load fonts from Google
+  Fonts to display text in your language.</p>
+
+  <h2>Sharing your daily result</h2>
+  <p>Saku prepares a share message on your device. It includes the daily
+  puzzle number, grid size, hint count and a link to the puzzle. The share
+  feature sends nothing unless you choose to share. The app or service you
+  choose handles the message under its own privacy policy.</p>
+
+  <h2>Purchases &amp; reviews</h2>
+  <p>The <strong>Apple App Store</strong> or <strong>Google Play</strong> processes
+  the optional Studio Unlock purchase and any rating or review you submit,
+  under the store&rsquo;s own privacy policies.</p>
 
   <h2>Children</h2>
-  <p>Saku is not directed at children and collects no data of its own. The free
-  version does show ads, however, and an ad can lead to an external site.
-  The one-time Studio Unlock removes advertising for anyone who would rather play without it.</p>
+  <p>Saku is not directed at children. Ads in the free app can link to external
+  sites. Studio Unlock removes advertising in the app.</p>
 
   <h2>Changes</h2>
   <p>If this policy ever changes, we will update this page and its effective date.</p>
@@ -91,7 +106,7 @@
   <p>Questions? Email <a href="mailto:mustafasalimerek@gmail.com">mustafasalimerek@gmail.com</a>.</p>
 
   <footer>
-    Effective 28 June 2026 · Saku is made by Erek Studio (Mustafa Salim Erek).
+    Effective 28 June 2026 · Version 1.2 update <time datetime="2026-11-21">21 November 2026</time> · Saku is made by Erek Studio (Mustafa Salim Erek).
   </footer>
 </main>
 </body>
